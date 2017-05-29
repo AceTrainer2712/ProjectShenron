@@ -21,3 +21,12 @@ Ace.
 
 ###Adding to server
 Will include invite links at a later date, along with wiki and guide support.
+
+###Tasklist
+This shows the last 3 completed and future 3 tasks.
+[x] Initialisation message on start
+[x] Prefix
+[ ] Allow for prefix changing (restrict privileges to Bot Owner Only for now)
+ [ ] Setup json/sqlite database for varying prefixes in multiple servers
+[ ] Setup welcome message options
+[ ] Setup goodbye message options
