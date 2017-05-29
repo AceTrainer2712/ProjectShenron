@@ -7,7 +7,7 @@ client.login(config.token);
 /* #general CID in ACEBOTTEST: '303554856948465664' */
 const id = '303554856948465664';
 
-client.on('ready', (message) => {
+client.on('ready', () => {
 	console.log('I have been summoned.');
 
 	client.channels.get(id).send('I am Shenron. Speak your wishes.');
