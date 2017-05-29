@@ -1,0 +1,26 @@
+{
+  "name": "projectshenron",
+  "version": "1.0.0",
+  "description": "Main Discord Bot codename Shenron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AceTrainer2712/ProjectShenron.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord"
+  ],
+  "author": "Ace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AceTrainer2712/ProjectShenron/issues"
+  },
+  "homepage": "https://github.com/AceTrainer2712/ProjectShenron",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
