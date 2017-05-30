@@ -1,6 +1,8 @@
-exports.cake = 'cake';
-exports.target = 'himself';
+// exports.cake = 'cake';
+// exports.target = 'himself';
 
-exports.cakefn = function (cake, user, target) {
-	message.channel.send(':' + cake + ':' + ' | ' + user + ' has given ' + '@' + target + ' a ' + cake + '!');
+exports.func = function (target) {
+	//message.channel.send(':' + cake + ':' + ' | ' + user + ' has given ' + '@' + target + ' a ' + cake + '!');
+
+	message.reply(':cake:  |  ** ${message.author.name} has given ${target} a slice of cake! **');
 }

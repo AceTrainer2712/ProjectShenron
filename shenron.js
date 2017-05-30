@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
-var cakefunc = require('./cake.js');
+var giveCake = require('./cake.js');
 
 client.login(config.token);
 
@@ -28,8 +28,10 @@ client.on('message', (message) => {
     message.channel.send('pong!');
   }
 
-  if(message.content.startsWith(config.prefix + cakefunc.cake)) {
-  	cakefunc.cakefn(cakefunc.cake, message.author, cakefunc.target);
-  	// message.channel.send(':' + cakefunc.cake + ':' + ' | ' + message.author + ' has given ' + '@' + cakefunc.target + ' a ' + cakefunc.cake + '!');
+  if(message.content.startsWith(config.prefix + 'cake')) {
+  	let cakes = message.content.split(' ').slice(1);
+  	let target = cakes[0];
+  	//giveCake.func(target);
+  	message.channel.send(':cake:  |  ** ' + message.author + ' has given ' + target + ' a slice of cake! **');
   }
 });
