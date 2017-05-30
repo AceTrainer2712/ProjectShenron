@@ -1,17 +1,16 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
+var cakefunc = require('./cake.js');
 
 client.login(config.token);
 
-/* #general CID in ACEBOTTEST: '303554856948465664' */
 const id = '303554856948465664';
 
 client.on('ready', () => {
 	console.log('I have been summoned.');
 
 	client.channels.get(id).send('I am Shenron. Speak your wishes.');
-	
 });
 
 function output(error) {
@@ -27,5 +26,10 @@ client.on('message', (message) => {
 
   if(message.content.startsWith(config.prefix + 'ping')) {
     message.channel.send('pong!');
+  }
+
+  if(message.content.startsWith(config.prefix + cakefunc.cake)) {
+  	cakefunc.cakefn(cakefunc.cake, message.author, cakefunc.target);
+  	// message.channel.send(':' + cakefunc.cake + ':' + ' | ' + message.author + ' has given ' + '@' + cakefunc.target + ' a ' + cakefunc.cake + '!');
   }
 });
