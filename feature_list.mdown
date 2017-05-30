@@ -1,9 +1,24 @@
 #Feature list.md
 
-[x] Initialisation message on start
-[x] Prefix
-[ ] Allow for prefix changing (restrict privileges to Bot Owner Only for now)
- [ ] Setup json/sqlite database for varying prefixes in multiple servers
-[ ] Setup welcome message options
-[ ] Setup goodbye message options
-[ ] 
+- [x] Initialisation message on start
+- [ ] Adapt intialisation message to defaultChannel
+- [x] Prefix
+- [ ] Allow for prefix changing (restrict privileges to Bot Owner Only for now)
+- [ ] Setup json/sqlite database for varying prefixes in multiple servers
+- [ ] Setup welcome message options
+- [ ] Setup goodbye message options
+- [ ] Cake feature
+- [ ] Expand feature to any emote?
+- [ ] Create game
+- [ ] Make modules
+- [ ] Include 3DS hacking errors
+- [ ] User Info database, include embed fields and implement function
+- [ ] Add remindme feature
+- [ ] User Info update database updates info field
+- [ ] Pin request?
+- [ ] Permissions
+- [ ] Warning system - use sqlite points database system with potentially manual warnings.
+- [ ] Include warnrequests
+- [ ] Mute controls
+- [ ] Autoassign colour change?
+- [ ] Feature Request system
