@@ -1,4 +1,4 @@
-#Feature list.md
+# Feature list.md
 
 - [x] Initialisation message on start
 - [ ] Adapt intialisation message to defaultChannel
@@ -7,7 +7,8 @@
 - [ ] Setup json/sqlite database for varying prefixes in multiple servers
 - [ ] Setup welcome message options
 - [ ] Setup goodbye message options
-- [ ] Cake feature
+- [x] Cake feature - works on main js
+- [ ] Cake feature - move to seperate module.
 - [ ] Expand feature to any emote?
 - [ ] Create game
 - [ ] Make modules
