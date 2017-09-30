@@ -1,26 +1,23 @@
 {
-  "name": "projectshenron",
+  "name": "ProjectShenron",
   "version": "1.0.0",
-  "description": "Main Discord Bot codename Shenron",
-  "main": "index.js",
+  "description": "Welcome to Project _Shenron_! This is a multipurpose Discord bot, intended mainly for Ace's Trade and Battle Spot.",
+  "main": "cake.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AceTrainer2712/ProjectShenron.git"
+    "url": "git+https://github.com/AceTrainer2712/ProjectShenron.git"
   },
-  "keywords": [
-    "discord.js",
-    "discord"
-  ],
-  "author": "Ace",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AceTrainer2712/ProjectShenron/issues"
   },
-  "homepage": "https://github.com/AceTrainer2712/ProjectShenron",
+  "homepage": "https://github.com/AceTrainer2712/ProjectShenron#readme",
   "dependencies": {
-    "discord.js": "^11.1.0"
+    "discord.js": "^11.2.1"
   }
 }
